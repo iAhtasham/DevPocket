@@ -8,6 +8,7 @@ A growing collection of small, single-purpose dev tools — the kind of thing yo
 |---|---|
 | [`freeport`](./freeport) | Frees a TCP port by killing whatever process is listening on it. |
 | [`screenshot`](./screenshot) | Captures a screenshot from a connected ADB (Android) device straight to the clipboard. |
+| [`zipper`](./zipper) | Zips a folder while skipping junk like `node_modules`, `bin`, `dist` — with an optional right-click context menu entry. |
 
 More tools will be added here over time as they come up.
 
