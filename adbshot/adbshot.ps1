@@ -4,8 +4,8 @@
 .PARAMETER Save
     Optional path to also keep a copy of the PNG on disk.
 .EXAMPLE
-    .\screenshot.ps1
-    .\screenshot.ps1 -Save C:\Users\me\Desktop\shot.png
+    .\adbshot.ps1
+    .\adbshot.ps1 -Save C:\Users\me\Desktop\shot.png
 #>
 [CmdletBinding()]
 param([string]$Save)

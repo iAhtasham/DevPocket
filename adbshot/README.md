@@ -1,4 +1,4 @@
-# screenshot
+# adbshot
 
 Grabs a screenshot from a connected Android device over `adb` and copies it straight to your Windows clipboard. No cables to disk, no "where did that file go" — just capture and paste.
 
@@ -11,7 +11,7 @@ Grabs a screenshot from a connected Android device over `adb` and copies it stra
 ## Usage
 
 ```powershell
-.\screenshot.ps1
+.\adbshot.ps1
 ```
 
 Copies the screenshot to the clipboard. Paste it anywhere (Slack, an image editor, a doc...).
@@ -19,14 +19,14 @@ Copies the screenshot to the clipboard. Paste it anywhere (Slack, an image edito
 To also keep a copy on disk:
 
 ```powershell
-.\screenshot.ps1 -Save C:\Users\me\Desktop\shot.png
+.\adbshot.ps1 -Save C:\Users\me\Desktop\shot.png
 ```
 
 Or via the `.cmd` wrapper:
 
 ```cmd
-screenshot.cmd
-screenshot.cmd -Save C:\Users\me\Desktop\shot.png
+adbshot.cmd
+adbshot.cmd -Save C:\Users\me\Desktop\shot.png
 ```
 
 ## How it works
@@ -39,4 +39,4 @@ screenshot.cmd -Save C:\Users\me\Desktop\shot.png
 
 ## Add it to your PATH
 
-Drop this folder somewhere permanent and add it to your `PATH`, then you can run `screenshot` from anywhere.
+Drop this folder somewhere permanent and add it to your `PATH`, then you can run `adbshot` from anywhere.
