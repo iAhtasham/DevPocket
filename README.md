@@ -12,9 +12,35 @@ A growing collection of small, single-purpose dev tools — the kind of thing yo
 
 More tools will be added here over time as they come up.
 
+## Installation
+
+The easiest way to get all three tools on your `PATH` is via a package manager:
+
+**Chocolatey**
+
+```powershell
+choco install devpocket
+```
+
+**winget**
+
+```powershell
+winget install iAhtasham.DevPocket
+```
+
+Either one installs `freeport`, `adbshot`, and `zipper` as standalone commands, no cloning required. See [`packaging/`](./packaging) for how these packages are built and published.
+
 ## Usage
 
-Each tool is self-contained — see its own README for usage details. In general:
+Once installed, just run the commands directly:
+
+```powershell
+freeport -Port 3000
+adbshot
+zipper -TargetDir C:\some\folder
+```
+
+Or, running from source instead of a package manager, each tool is self-contained — see its own README for details. In general:
 
 ```powershell
 cd <tool-name>

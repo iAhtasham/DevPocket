@@ -1,0 +1,17 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The executables bundled in this package (freeport.exe, adbshot.exe, zipper.exe)
+are compiled directly from the PowerShell scripts published in this project's
+public source repository, using the open-source ps2exe module
+(https://www.powershellgallery.com/packages/ps2exe).
+
+Source code for every tool: https://github.com/iAhtasham/DevPocket
+
+You can rebuild the executables yourself and compare:
+
+  Install-Module ps2exe -Scope CurrentUser
+  Invoke-ps2exe freeport\freeport.ps1 freeport.exe
+  Invoke-ps2exe adbshot\adbshot.ps1 adbshot.exe
+  Invoke-ps2exe zipper\zip_with_ignore.ps1 zipper.exe

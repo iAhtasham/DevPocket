@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>devpocket</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/iAhtasham/DevPocket</packageSourceUrl>
+    <owners>iAhtasham</owners>
+    <title>DevPocket</title>
+    <authors>Ahtasham Nazeer</authors>
+    <projectUrl>https://github.com/iAhtasham/DevPocket</projectUrl>
+    <licenseUrl>https://github.com/iAhtasham/DevPocket/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/iAhtasham/DevPocket</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/iAhtasham/DevPocket/issues</bugTrackerUrl>
+    <tags>devpocket freeport adbshot zipper cli dev-tools windows</tags>
+    <summary>A growing collection of small, single-purpose dev tools: freeport, adbshot, zipper.</summary>
+    <description>
+DevPocket is a growing collection of small, single-purpose dev tools:
+
+- **freeport** - frees a TCP port by killing whatever process is listening on it.
+- **adbshot** - captures a screenshot from a connected ADB (Android) device straight to the clipboard.
+- **zipper** - zips a folder while skipping junk like node_modules, bin, dist.
+
+Installing this package puts `freeport`, `adbshot`, and `zipper` on your PATH.
+
+See the project README for full usage: https://github.com/iAhtasham/DevPocket
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

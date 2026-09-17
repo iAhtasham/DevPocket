@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: iAhtasham.DevPocket
+PackageVersion: 1.0.0
+PackageLocale: en-US
+Publisher: Ahtasham Nazeer
+PublisherUrl: https://github.com/iAhtasham
+PublisherSupportUrl: https://github.com/iAhtasham/DevPocket/issues
+PackageName: DevPocket
+PackageUrl: https://github.com/iAhtasham/DevPocket
+License: MIT
+LicenseUrl: https://github.com/iAhtasham/DevPocket/blob/main/LICENSE
+ShortDescription: A growing collection of small, single-purpose dev tools (freeport, adbshot, zipper).
+Description: >-
+  DevPocket is a growing collection of small, single-purpose dev tools.
+  Installing it puts freeport, adbshot, and zipper on your PATH.
+  freeport frees a TCP port by killing whatever process is listening on it.
+  adbshot captures a screenshot from a connected ADB (Android) device
+  straight to the clipboard. zipper zips a folder while skipping junk
+  like node_modules, bin, and dist.
+Moniker: devpocket
+Tags:
+  - freeport
+  - adb
+  - screenshot
+  - zip
+  - cli
+  - developer-tools
+ReleaseNotes: Initial release with freeport, adbshot, and zipper.
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

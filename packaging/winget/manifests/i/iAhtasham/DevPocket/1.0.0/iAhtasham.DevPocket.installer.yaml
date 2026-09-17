@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: iAhtasham.DevPocket
+PackageVersion: 1.0.0
+Platform:
+  - Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: freeport.exe
+    PortableCommandAlias: freeport
+  - RelativeFilePath: adbshot.exe
+    PortableCommandAlias: adbshot
+  - RelativeFilePath: zipper.exe
+    PortableCommandAlias: zipper
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/iAhtasham/DevPocket/releases/download/v1.0.0/devpocket-1.0.0-win-x64.zip
+    InstallerSha256: DE388A5BA85EB0BD81A9BA1CBC81EB6F729E98487F91A0DA3F435AA14CFE06B7
+ManifestType: installer
+ManifestVersion: 1.6.0
